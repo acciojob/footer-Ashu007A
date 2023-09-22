@@ -1,1 +1,123 @@
 /* your code here */
+
+		body, h1, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer {
+            background-color: black;
+            color: #fff;
+            padding-top: 20px;
+        }
+
+        .footer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-header h1 {
+            font-size: 24px;
+            margin-left: 20%;
+        }
+
+        .media-icons {
+            margin-right: 10%;
+        }
+        
+        .media-icons a {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .footer-columns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .footer-column {
+            flex: 1;
+            margin-left: 10%;
+        }
+
+        .footer-column h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul {
+            list-style: none;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer-column a {
+            text-decoration: none;
+            color: inherit;
+            opacity:0.8;
+        }
+
+        .footer-bottom {
+            background-color: rgb(44, 48, 59);
+            margin-top: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;            
+        }
+
+        .footer-bottom p {
+            font-size: 14px;
+            margin-bottom: 10px;
+            opacity:0.8;
+        }
+
+        .footer-bottom a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            opacity:0.8;
+        }
+
+        .footer-column a:hover, .footer-bottom p:hover, .footer-bottom a:hover {
+            opacity: 1;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+        }  
+        .fa-facebook {  
+            background: rgb(65, 103, 178);  
+            color: white;  
+        }  
+        .fa-twitter {  
+            background: rgb(29, 161, 243);  
+            color: white;  
+        }
+        .fa-linkedin {  
+            background: rgb(0, 119, 180);  
+            color: white;  
+        }  
+        .fa-instagram {  
+            background: rgb(226, 48, 108);  
+            color: white;  
+        }  
+        .fa-youtube {  
+            background: rgb(254, 0, 1);  
+            color: white;  
+        }  
+
+        .fa:hover {
+            opacity: 0.7;
+        }
